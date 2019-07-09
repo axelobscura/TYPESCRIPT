@@ -1,0 +1,2 @@
+// boolean
+var isCool = true;
