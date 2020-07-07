@@ -3,21 +3,21 @@ var isCool = true;
 // number
 var age = 56;
 //string
-var eyeColor = 'brown';
+var eyeColor = "brown";
 var favouriteColor = "I'm not old, i'm only " + age;
 //Arrays
-var pets = ['cat', 'dog', 'pig'];
-var pets2 = ['lion', 'dragon', 'lizard'];
+var pets = ["cat", "dog", "pig"];
+var pets2 = ["lion", "dragon", "lizard"];
 //Objects
 var wizard = {
-    a: 'John'
+    a: "John"
 };
 //null and undefined
 var meh = undefined;
 var noo = null;
 //Tuple
 var basket;
-basket = ['basketball', 5];
+basket = ["basketball", 5];
 //Enum
 var Size;
 (function (Size) {
@@ -27,4 +27,9 @@ var Size;
 })(Size || (Size = {}));
 var sizeName = Size.small;
 //Any - !!!!!!!!!!!! BE CAREFUL
-var whatever = 'aghhhhhhhhhh noooooooooo!!!!!';
+var whatever = "aghhhhhhhhhh noooooooooo!!!!!";
+var sum = function (a, b) {
+    a + b;
+};
+var answer = sum(4, 5);
+console.log(answer);
